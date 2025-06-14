@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    /*background-image: url() ;
+    background-size:;*/
+    color:rgb(3, 31, 48);
+}
+
+/*.r1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+}
+
+.r1 h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+
+.r1 p{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.r1 input{
+    font-size: 16px;
+    margin: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.r1 button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 0px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.r1 button :hover{
+    color: rgb(246, 0, 0);
+}*/
+
+.registration-form{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border:none ;
+    border-color:rgba(12, 31, 109,0.5);
+    color: rgb(13, 13, 77);
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background-color:rgba(255, 251, 251, 0);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px;
+
+
+    /*extra below here*/
+    width: 240px;
+    height: 300px;
+    
+    /*transition-property: height;
+    transition-duration:0.5s;*/
+
+    
+}
+
+/*.registration-form:hover{
+    height: 302.5px;
+    
+}*/
+.registration-form input{
+    text-transform: lowercase;
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgba(12, 31, 109,0.3);
+    backdrop-filter: blur(20px);
+    padding: 3px 10px;
+    width: 200px;
+    margin: 3px;
+}
+.registration-form button{
+    background-color: #090d4b;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 9px 4px 7px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 8px;
+    box-shadow:0 0 20px rgba(0, 0, 0, 2);
+    
+    
+}
+.registration-form button :hover{
+    /*background-color: red;*/
+    color: rgb(123, 213, 115);
+}
